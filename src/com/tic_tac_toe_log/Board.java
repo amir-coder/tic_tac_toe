@@ -20,7 +20,7 @@ public class Board {
         }
         squares.get(index-1).setValue(value);
         return true;
-    };
+    }
 
     public boolean isWinner(char currentPlayer) {
         for(int[] vect: Game.winningTemplate){

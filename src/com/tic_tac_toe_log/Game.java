@@ -22,11 +22,6 @@ public class Game{
         }
     }
 
-    public void showGameState(){
-        System.out.println();
-        this.myGameBoard.printContent();
-        System.out.println("Player:"+currentPlayer);
-    }
     private boolean newMove(){
         playCounter++;
         if(playCounter>9) return false;
@@ -36,6 +31,12 @@ public class Game{
 
     private void checkForWinner(){
         thereIsWinner = myGameBoard.isWinner(currentPlayer);
+    }
+
+    public void showGameState(){
+        System.out.println();
+        this.myGameBoard.printContent();
+        System.out.println("Player:"+currentPlayer);
     }
 
     public void startGame(){

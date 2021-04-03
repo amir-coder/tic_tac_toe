@@ -1,9 +1,6 @@
 package com.tic_tac_toe_log;
 
-import com.tic_tac_toe_log.*;
-
 import java.util.HashMap;
-import java.util.Scanner;
 
 
 public class Main {

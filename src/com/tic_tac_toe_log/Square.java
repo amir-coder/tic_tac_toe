@@ -20,10 +20,10 @@ public class Square {
         this.value = value;
     }
 
-
     public int getIndex() {
         return this.index;
     }
+
     public void setIndex(int index) {
         this.index = index;
         value = Main.symbols.get(index);
